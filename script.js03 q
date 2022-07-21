@@ -1,0 +1,15 @@
+class Person{
+    constructor(name,age,dob,gender,occupation,salary){
+      this.name=name;
+      this.age=age;
+      this.dob=dob;
+      this.gender=gender;
+      this.occupation=occupation;
+      this.salary=salary;
+    }
+    
+}
+var p1=new Person("vicky",26,"male",08-03-95,"fsd",100000);
+var p2=new Person("vishnu",28,"male",02-08-93,"software engineer",120000);
+var p3=new Person("selva",46,"male",08-03-85,"finance",1000000);
+console.log(p1,p3)

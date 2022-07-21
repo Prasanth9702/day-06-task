@@ -1,0 +1,10 @@
+class Movie{
+    constructor(title,studio,rating){
+      this.title=title;
+      this.studio=studio;
+      this.rating=rating;
+    }
+  }
+  var m1=new Movie("vikram","raj kamal international",8.5);
+  var m2=new Movie("kaithi","dream warriors",8.5);
+  console.log(m2)
