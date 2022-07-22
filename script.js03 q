@@ -9,7 +9,7 @@ class Person{
     }
     
 }
-var p1=new Person("vicky",26,"male",8-3-95,"fsd",100000);
-var p2=new Person("vishnu",28,"male",2-8-93,"software engineer",120000);
-var p3=new Person("selva",46,"male",8-3-85,"finance",1000000);
+var p1=new Person("vicky",26,"8may95","male","fsd",100000);
+var p2=new Person("vishnu",28,"2july93","male","software engineer",120000);
+var p3=new Person("selva",46,"8march85","male","finance",1000000);
 console.log(p1,p3)
