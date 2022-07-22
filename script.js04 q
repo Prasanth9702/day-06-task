@@ -1,6 +1,6 @@
 class Uber{
-    constructor(kms range,price){
-      this.kms range=kms range;
+    constructor(kmsrange,price){
+      this.kmsrange=kmsrange;
       this.price=price;
     }
 }
@@ -10,6 +10,6 @@ var ride3=new Uber(15,225);
 var ride4=new Uber(20,300);
 var ride5=new Uber(16,240);
 var ride6=new Uber(12,180);
-var ride7=new Uber(05,75);
+var ride7=new Uber(5,75);
 
 console.log(ride1.price+ride2.price+ride3.price+ride4.price+ ride5.price+ ride6.price+ ride7.price)
